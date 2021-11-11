@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#layout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 64px;
+  background-color: #DDD;
+}
+
+#layout > div {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  background-color: #000;
+  display: inline-block;
+  border: 1px solid #fff;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+#layout > div.ot-layout {
+  opacity: 1;
+}
+
+input[type="button"] {
+  width: 150px;
+  height: 32px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+#buttons {
+  position: absolute;
+  bottom: 0;
+  margin: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+input#add {
+  background-color: #67AB4D;
+}
+
+input#remove {
+  background-color: #C24442;
+}

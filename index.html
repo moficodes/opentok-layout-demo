@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Layout Test</title>
+    <script src="https://static.opentok.com/v2/js/opentok.min.js"></script>
+    <script src="js/opentok-layout.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- This holds all the video elements -->
+    <div id="layout"></div>
+    <!-- Buttons for adding and removing video -->
+    <div id="buttons">
+      <input
+        type="button"
+        name="add"
+        value="Add"
+        id="add"
+        onclick="addElement()"
+      />
+      <input
+        type="button"
+        name="remove"
+        value="Remove"
+        id="remove"
+        onclick="removeElement()"
+      />
+    </div>
+  </body>
+  <script type="text/javascript" charset="utf-8" src="js/script.js"></script>
+</html>
